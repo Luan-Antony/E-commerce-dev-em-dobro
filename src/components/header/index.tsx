@@ -2,25 +2,28 @@ import logo from '/logo.png'
 import cart from '/icon-cart.png'
 export const Header = () => {
     return (
-        <header>
-            <img src={logo} alt="Logo" />
+        <header className='border-b border-[#6528D3]'>
+            <section className="max-w-[1450px] m-auto px-8">
+                <div className='flex items-center justify-between'>
+                    <img src={logo} alt="Logo" />
 
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Perguntas frequêntes</a></li>
-                    <li><a href="#">Fale conosco</a></li>
-                </ul>
-
-                <div>
-                    <a>Entrar ou Cadastre-se</a>
-                    <a>
-                        <img src={cart} alt="Cart" />
-                    </a>
+                    <nav>
+                        <ul className='flex gap-[2rem]'>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Produtos</a></li>
+                            <li><a href="#">Perguntas frequêntes</a></li>
+                            <li><a href="#">Fale conosco</a></li>
+                        </ul>
+                    </nav>
+                    <div className='flex items-center'>
+                        <a>Entrar ou Cadastre-se</a>
+                        <a>
+                            <img src={cart} alt="Cart" />
+                        </a>
+                    </div>
                 </div>
-            </nav>
+            </section>
         </header>
     )
 }   
