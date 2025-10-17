@@ -17,7 +17,7 @@ export const Header = () => {
                         </ul>
                     </nav>
                     <div className='flex items-center gap-[1rem]'>
-                        <a className='px-[2rem] py-[1rem] bg-[#6528D3] rounded-[0.5rem]'>Entrar ou Cadastre-se</a>
+                        <a className='px-[2rem] py-[1rem] bg-[#6528D3] rounded-[0.2rem]'>Entrar ou Cadastre-se</a>
                         <a>
                             <img src={cart} alt="Cart" />
                         </a>
