@@ -3,9 +3,11 @@ import { products } from "../../mocks"
 
 export const Home = () => {
     return (
-        <div className="max-w-[1450px] m-auto px-8">
-            <h1>Produtos</h1>
-            <CardProducts products={products} />
+        <div className="max-w-[1350px] m-auto px-8">
+            <div className="">
+                <h1 className="w-full">Produtos</h1>
+                <CardProducts products={products} />
+            </div>
         </div>
     )
 }

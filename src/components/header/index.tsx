@@ -3,7 +3,7 @@ import cart from '/icon-cart.png'
 export const Header = () => {
     return (
         <header className='border-b border-[#6528D3] py-[1rem]'>
-            <section className="max-w-[1450px] m-auto px-8">
+            <section className="max-w-[1350px] m-auto px-8">
                 <div className='flex items-center justify-between'>
                     <img src={logo} alt="Logo" />
 
